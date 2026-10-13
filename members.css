@@ -1,0 +1,283 @@
+body{
+    background-image:URL("New\ Project\ \(100\).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    height:auto;
+    width:auto;
+
+}
+
+.navbar{
+    gap:20px;
+    background-color:rgb(0, 0, 0);
+    padding:30px;
+    align-items:center;
+    text-align:center;
+    border-radius:20px;
+    margin:5px;
+    border:2px rgb(35, 35, 35) solid;
+    box-shadow:0px 0px 7px white;
+    display:flex;
+    position:sticky;
+    top: 1;
+    z-index: 1000;
+}
+
+.nav-links a{
+    font-size:15px;
+    margin-right:10px;
+    text-decoration:none;
+    color:white;
+    background-color:rgb(85, 85, 85);
+    border-radius:10px;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-family:parkinsans;
+    border:black solid 2px;
+}
+.nav-links a:hover{
+    font-weight:900;
+    text-shadow:0px 0px 20px rgb(254, 252, 252);
+
+
+}
+
+.nav-links{
+    margin-left:50px;
+    margin-right:50px;
+
+
+
+}
+
+.nav-logo{
+
+    font-size:25px;
+    text-decoration:none;
+    color:white;
+    margin-left:30px;
+
+    font-family:Barlow;
+}
+
+.search input{
+    width: 20rem;
+    height:3rem;
+    background-color: #2a2a2a;
+    border:3px solid black;
+    border-radius:6px;
+    color:white;
+    font-family:Parkinsans;
+    padding-left:10px;
+    
+}
+
+.search input::placeholder{
+    color: #F6F5F2;
+    font-family:Parkinsans;
+    padding-left:30px;
+}
+
+.headingss{
+    font-weight:700;
+    font-size:40px;
+    color:white;
+    font-family:parkinsans;
+    text-align:center;
+
+
+}
+
+
+.headers{
+    font-family: Parkinsans;
+    color:white;
+    text-align:center;
+    font-size:40px;
+    font-weight:700;
+    text-shadow:2px 3px black;
+
+
+
+}
+
+.Classes{
+    font-family:Arial;
+    color:white;
+    font-size:40px;
+    margin-left:30px;
+    text-align: center;
+ 
+}
+
+
+.textss{
+    color:white;
+    font-family: parkinsans;
+
+}
+
+.grouping{
+
+    background-color:rgb(0, 0, 0, 0.7);
+    padding:20px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:0px 0px 15px white;
+    margin-bottom:50px;
+    transition:0.5s;
+
+
+}
+
+.grouping1{
+
+    background-color:rgb(0, 0, 0, 0.7);
+    padding:20px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:0px 0px 15px white;
+    margin-bottom:50px;
+    transition:0.5s;
+
+
+}
+
+.grouping2{
+
+    background-color:rgb(0, 0, 0, 0.7);
+    padding:20px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:0px 0px 15px white;
+    margin-bottom:50px;
+    transition:0.5s;
+
+
+}
+
+.grouping3{
+
+    background-color:rgb(0, 0, 0, 0.7);
+    padding:20px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:0px 0px 15px white;
+    margin-bottom:50px;
+    transition:0.5s;
+
+
+}
+
+.grouping4{
+
+    background-color:rgb(0, 0, 0, 0.7);
+    padding:20px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:0px 0px 15px white;
+    margin-bottom:50px;
+    transition:0.5s;
+
+
+}
+
+.grouping5{
+
+    background-color:rgb(0, 0, 0, 0.7);
+    padding:20px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:0px 0px 15px white;
+    margin-bottom:50px;
+    transition:0.5s;
+
+
+}
+
+.grouping6{
+
+    background-color:rgb(0, 0, 0, 0.7);
+    padding:20px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:0px 0px 15px white;
+    margin-bottom:50px;
+    transition:0.5s;
+
+
+}
+
+.grouping7{
+
+    background-color:rgb(0, 0, 0, 0.7);
+    padding:20px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:0px 0px 15px white;
+    margin-bottom:50px;
+    transition:0.5s;
+
+
+}
+
+
+
+.textgroup{
+    display:flex;
+        justify-content: space-around;
+
+
+}
+
+.grouping:hover{
+
+    box-shadow:0px 0px 15px red;
+}
+
+.grouping1:hover{
+
+    box-shadow:0px 0px 15px rgb(6, 119, 154);
+}
+
+.grouping2:hover{
+
+    box-shadow:0px 0px 15px rgb(12, 223, 15);
+}
+
+.grouping3:hover{
+
+    box-shadow:0px 0px 15px rgb(107, 63, 182);
+}
+
+.grouping4:hover{
+
+    box-shadow:0px 0px 15px rgb(244, 240, 7);
+}
+
+.grouping5:hover{
+
+    box-shadow:0px 0px 15px rgb(25, 40, 124);
+}
+
+
+.grouping6:hover{
+
+    box-shadow:0px 0px 15px rgb(188, 28, 89);
+}
+
+.grouping7:hover{
+
+    box-shadow:0px 0px 15px rgb(236, 169, 70);
+}

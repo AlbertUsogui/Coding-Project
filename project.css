@@ -1,0 +1,295 @@
+.introduction{
+    height:150px;
+    width:800px;
+    padding:15px;
+    margin-left:0px;
+    margin-top:40px;
+    color:white;
+    background-color:rgba(20, 20, 20, 0.5);
+    border-radius:20px;
+    font-family:Parkinsans;
+    font-size:15px;
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    z-index: -999;
+    box-shadow:0px 0px 5px white;
+
+
+
+}
+
+body{
+    background-image:URL("New\ Project\ \(100\).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    height:auto;
+    width:auto;
+
+}
+
+.navbar{
+    gap:20px;
+    background-color:rgb(0, 0, 0);
+    padding:30px;
+    align-items:center;
+    text-align:center;
+    border-radius:20px;
+    margin:5px;
+    border:2px rgb(35, 35, 35) solid;
+    box-shadow:0px 0px 7px white;
+    display:flex;
+    position:sticky;
+    top: 1;
+    z-index: 1000;
+}
+
+.nav-links a{
+    font-size:15px;
+    margin-right:10px;
+    text-decoration:none;
+    color:white;
+    background-color:rgb(85, 85, 85);
+    border-radius:10px;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-family:parkinsans;
+    border:black solid 2px;
+}
+.nav-links a:hover{
+    font-weight:900;
+    text-shadow:0px 0px 20px rgb(254, 252, 252);
+
+
+}
+
+.nav-links{
+    margin-left:50px;
+    margin-right:50px;
+
+
+
+}
+
+.nav-logo{
+
+    font-size:25px;
+    text-decoration:none;
+    color:white;
+    margin-left:30px;
+
+    font-family:Barlow;
+}
+
+.search input{
+    width: 20rem;
+    height:3rem;
+    background-color: #2a2a2a;
+    border:3px solid black;
+    border-radius:6px;
+    color:white;
+    font-family:Parkinsans;
+    padding-left:10px;
+    
+}
+
+.search input::placeholder{
+    color: #F6F5F2;
+    font-family:Parkinsans;
+    padding-left:30px;
+}
+
+.headingss{
+    font-weight:700;
+    font-size:40px;
+    color:white;
+    font-family:parkinsans;
+    text-align:center;
+
+
+}
+
+.groups1, .groups2, .groups3, .groups4, .groups5, .groups6, .groups7, .groups8, .groups9, .groups10, .groups11, .groups12{
+
+    background-color:rgba(20, 20, 20, 0.6);
+    display:flex;
+    margin:20px;
+    padding:30px;
+    border:2px solid black;
+    border-radius:5px;
+    transition:0.5s;
+    
+
+
+
+
+}
+
+.groups1:hover {
+    box-shadow:0px 0px 7px lightgrey;
+}
+
+.groups2:hover {
+    box-shadow:0px 0px 7px lightgrey;
+}
+
+.groups3:hover {
+    box-shadow:0px 0px 7px lightgrey;
+}
+
+.groups4:hover {
+    box-shadow:0px 0px 7px lightgrey;
+}
+
+.groups5:hover {
+    box-shadow:0px 0px 7px lightgrey;
+}
+
+.groups6:hover {
+    box-shadow:0px 0px 7px lightgrey;
+}
+
+.groups7:hover {
+    box-shadow:0px 0px 7px lightgrey;
+}
+
+.groups8:hover {
+    box-shadow:0px 0px 7px lightgrey;
+}
+
+.groups9:hover {
+    box-shadow:0px 0px 7px lightgrey;
+}
+
+.groups10:hover {
+    box-shadow:0px 0px 7px lightgrey;
+}
+
+.groups11:hover {
+    box-shadow:0px 0px 7px lightgrey;
+}
+
+.groups12:hover {
+    box-shadow:0px 0px 7px lightgrey;
+}
+
+
+
+
+
+.groups1 img,.groups9 img,.groups10 img,.groups11 img,.groups12 img,.groups2 img,.groups3 img,.groups4 img,.groups5 img,.groups6 img,.groups7 img,.groups8 img,.groups9 img,.groups10 img,.groups11 img,.groups12 img,.groups13 img{
+    height:250px;
+    width: 250px;
+    border-radius:20px;
+    border:2px solid black;
+
+
+}
+.groups7 .text,.groups8 .text,.groups1 .text,.groups9 .text,.groups1 .text,.groups5 .text,.groups2 .text,.groups3 .text,.groups4 .text,.groups5 .text,.groups6 .text,.groups9 .text,.groups10 .text,.groups12 .text,.groups11 .text{
+    color:white;
+    margin-left:40px;
+}
+
+.groups1 .text .titles,.groups5 .text .titles,.groups8 .text .titles,.groups7 .text .titles,.groups2 .text .titles,.groups3 .text .titles,.groups4 .text .titles,.groups6 .text .titles,.groups6 .text .titles,.groups9 .text .titles,.groups10 .text .titles,.groups11 .text .titles,.groups12 .text .titles{
+    font-size:32px;
+    text-align:center;
+    font-family:parkinsans;
+    font-weight:600;
+        text-shadow:2px 2px  black;
+
+}
+
+.groups1 .text .descriptions,.groups2 .text .descriptions,.groups3 .text .descriptions,.groups4 .text .descriptions,.groups5 .text .descriptions
+, .groups6 .text .descriptions,.groups7 .text .descriptions,.groups8 .text .descriptions,.groups9 .text .descriptions,.groups10 .text .descriptions,.groups11 .text .descriptions,.groups12 .text .descriptions{
+    text-shadow:2px 2px black;
+    font-family:parkinsans;
+}
+
+.groups1 .text .button button,.groups2 .text .button button,.groups3 .text .button button,.groups4 .text .button button,.groups5 .text .button button,.groups6 .text .button button, .groups7 .text .button button
+, .groups8 .text .button button,.groups9 .text .button button,.groups10 .text .button button,.groups11 .text .button button,.groups12 .text .button button{
+    width:300px;
+    height:40px;
+    background-color:grey;
+    color:white;
+    font-size:15px;
+    text-align: center;
+    align-items: center;
+      display: block;
+  margin: 0 auto;
+  margin-top:24px;
+    font-family:Parkinsans;
+    padding:10px;
+    border-radius:5px;
+    border:2px solid black;
+    transition:0.5s;
+
+}
+
+.groups1 .text .button button:hover{
+    background-color:rgb(77, 76, 76);
+
+}
+
+.groups2 .text .button button:hover{
+    background-color:rgb(77, 76, 76);
+
+}
+
+.groups3 .text .button button:hover{
+    background-color:rgb(77, 76, 76);
+
+}
+
+.groups4 .text .button button:hover{
+    background-color:rgb(77, 76, 76);
+
+}
+
+.groups5 .text .button button:hover{
+    background-color:rgb(77, 76, 76);
+
+}
+
+.groups6 .text .button button:hover{
+    background-color:rgb(77, 76, 76);
+
+}
+
+.groups7 .text .button button:hover{
+    background-color:rgb(77, 76, 76);
+
+}
+
+.groups8 .text .button button:hover{
+    background-color:rgb(77, 76, 76);
+
+}
+
+
+.groups9 .text .button button:hover{
+    background-color:rgb(77, 76, 76);
+
+}
+
+.groups10 .text .button button:hover{
+    background-color:rgb(77, 76, 76);
+
+}
+
+.groups11 .text .button button:hover{
+    background-color:rgb(77, 76, 76);
+
+}
+
+.groups12 .text .button button:hover{
+    background-color:rgb(77, 76, 76);
+
+}
+
+
+
+
+
