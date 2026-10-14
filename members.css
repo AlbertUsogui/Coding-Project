@@ -1,3 +1,10 @@
+/*
+ * Project: Python Hub
+ * Original design and development: Albert Geraldo Hudaya
+ * Technologies: HTML, CSS, JavaScript
+ * Copyright (c) 2026 Albert Geraldo Hudaya.
+ */
+
 body{
     background-image:URL("New\ Project\ \(100\).png");
     background-repeat: no-repeat;
@@ -6,7 +13,7 @@ body{
     background-position: center;
     height:auto;
     width:auto;
-
+    margin: 0;
 }
 
 .navbar{
@@ -391,3 +398,23 @@ body{
 }
 
 
+.site-footer {
+    margin-top:40px;
+    padding: 25px 15px;
+    text-align: center;
+    color: #cccccc;
+    background: rgba(0, 0, 0, 0.45);
+    border-top: 1px solid #444444;
+    font-family: Parkinsans;
+    font-size: 13px;
+}
+
+.site-footer p {
+    margin: 6px 0;
+}
+
+.site-footer p:first-child {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
